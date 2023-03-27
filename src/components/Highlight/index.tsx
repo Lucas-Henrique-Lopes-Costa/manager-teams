@@ -6,15 +6,11 @@ type Props = {
 };
 
 export function Highlight({ title, subtitle }: Props) {
-  return(
+  return (
     <Container>
-      <Title>
-        {title}
-      </Title>
+      <Title>{title}</Title>
 
-      <Subtitle>
-        {subtitle}
-      </Subtitle>
+      <Subtitle>{subtitle}</Subtitle>
     </Container>
-  )
+  );
 }
