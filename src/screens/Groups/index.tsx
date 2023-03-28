@@ -10,7 +10,7 @@ import { ListEmpty } from "@components/ListEmpty";
 import { Container } from "./styles";
 
 export function Groups() {
-  const [groups, setGroups] = useState<string[]>([]);
+  const [groups, setGroups] = useState<string[]>(["Time 1", "Time 2"]);
 
   return (
     <Container>
