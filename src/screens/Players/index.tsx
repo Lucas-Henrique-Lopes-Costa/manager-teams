@@ -13,7 +13,7 @@ import { ButtonIcon } from "@components/ButtonIcon";
 import { Container, Form, HeaderList, NumberOfPlayers } from "./styles";
 
 export function Players() {
-  const [team, setTeam] = useState("Time B");
+  const [team, setTeam] = useState("Time A");
   const [players, setPlayers] = useState([
     "Lucas",
     "Marcos",
